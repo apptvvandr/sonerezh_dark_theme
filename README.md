@@ -9,5 +9,5 @@ Installation
 ----------------
 
 - Download and extract the project
-- Copy and paste "app" directory in your Sonerezh main directory, replace file
+- Copy and paste "app" directory in your Sonerezh main directory, replace files
 - Enjoy !
