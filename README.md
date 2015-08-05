@@ -15,14 +15,12 @@ Install
 Uninstall
 ----------------
 
-- Open app/View/Layouts/default.ctp
-replace this ligne : 
-	<?= $this->Html->css(array('bootstrap.min', 'jquery.fs.selecter.min', 'pace', 'notify', 'slider', 'style', 'style-dark'));?>
-	to
-	<?= $this->Html->css(array('bootstrap.min', 'jquery.fs.selecter.min', 'pace', 'notify', 'slider', 'style'));?>
+- Open app/View/Layouts/default.ctp and replace this ligne :  
+	<?= $this->Html->css(array('bootstrap.min', 'jquery.fs.selecter.min', 'pace', 'notify', 'slider', 'style', 'style-dark'));?>  
+	to  
+	<?= $this->Html->css(array('bootstrap.min', 'jquery.fs.selecter.min', 'pace', 'notify', 'slider', 'style'));?>  
 
-- Open app/View/Layouts/login.ctp
-replace this ligne : 
-	<?= $this->Html->css(array('bootstrap.min', 'login', 'login-dark'));?>
-	to
-	<?= $this->Html->css(array('bootstrap.min', 'login'));?>
+- Open app/View/Layouts/login.ctp and replace this ligne :  
+	<?= $this->Html->css(array('bootstrap.min', 'login', 'login-dark'));?>  
+	to  
+	<?= $this->Html->css(array('bootstrap.min', 'login'));?>  
