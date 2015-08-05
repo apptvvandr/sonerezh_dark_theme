@@ -1,0 +1,128 @@
+a:focus { 
+    outline: none; 
+}
+
+body{
+	background: #EFEFF2;
+}
+
+/* NAVBAR */
+.navbar-inverse,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-brand:focus{
+	background: #FFFFFF;
+	color: #23232C;
+}
+
+.navbar-inverse .navbar-nav>.active>a:after{
+	border-color: transparent transparent #23232C;
+}
+
+.navbar-inverse .navbar-header>a:hover,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>.active>a:hover{
+	background: #F8F8F9;
+	color: #007FEB;
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-brand{
+	color: #23232C;
+}
+
+nav .search-input{
+	border: 1px solid #D1D1D7;
+}
+
+/* PLAYER */
+.navbar-player{
+	background: #23232C;
+}
+
+.navbar-player .song-name{
+	color: #FFFFFF;
+}
+
+.navbar-player .glyphicon{
+	color: #C2C2CA;
+}
+
+.navbar-player .glyphicon:hover, .navbar-player .active .glyphicon:hover, .navbar-player .active .glyphicon{
+	color: #FFFFFF;
+}
+
+.slider .slidebar, .slider .bufbar, .badge-timer{
+	background-color: #007FEB;
+}
+
+
+/* CONTENT */
+#content{
+	margin-top: 20px;
+}
+
+#content .table{
+	background: #FFFFFF;
+	border: 1px solid #D1D1D7;
+}
+
+#content .table-album, .panel-body table{
+	border: none!important;
+}
+
+#content table tr:nth-child(odd), #queue-list table tr:nth-child(odd){
+	background-color: #FFFFFF;
+}
+
+#content table tr:nth-child(even), #queue-list table tr:nth-child(even) {
+	background-color: #F8F8F9;
+}
+
+#content table tbody tr:hover{
+	background-color: #E8E8EC;
+}
+
+.band-name{
+	background: #FFFFFF;
+	border: 1px solid #D1D1D7;
+}
+
+.cover{
+	border-radius: 0px
+}
+
+.form-horizontal button{
+	visibility: hidden;
+}
+
+/* PLAYLIST*/
+.playlist-row{
+	background: #FFFFFF;
+	border: 1px solid #D1D1D7;
+}
+
+.playlist-row .table{
+	border: none!important;
+}
+
+/* MISCELLANEOUS */
+.table > tbody > tr > td{
+	padding: 8px 10px;
+}
+
+.modal-title{
+	text-align: center;
+}
+
+.form-group label{
+	display: none;
+}
+
+.search-input:focus, .form-control:focus{
+	border: 1px solid #007FEB;
+	box-shadow: none;
+}
+
+.panel-default{
+	border: 1px solid #D1D1D7;
+	box-shadow: none;
+}
