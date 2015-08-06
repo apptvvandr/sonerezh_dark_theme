@@ -87,7 +87,8 @@ nav .search-input{
 }
 
 .cover{
-	border-radius: 0px
+	border-radius: 0px;
+	box-shadow: none;
 }
 
 .form-horizontal button{
