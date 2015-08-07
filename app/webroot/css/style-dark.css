@@ -95,6 +95,16 @@ nav .search-input{
 	visibility: hidden;
 }
 
+.action-expend h4 {
+    background: #FFF none repeat scroll 0% 0%;
+    margin-top: -10px;
+    padding: 10px;
+    border: 1px solid #D1D1D7;
+    border-top: none;
+    text-align: center;
+    font-size: 16px;
+}
+
 /* PLAYLIST*/
 .playlist-row{
 	background: #FFFFFF;
@@ -103,6 +113,24 @@ nav .search-input{
 
 .playlist-row .table{
 	border: none!important;
+}
+
+.playlist-row .alert-info{
+	background: none;
+	border: none;
+}
+
+/* ALBUM EXPENDED*/
+#album-expended{
+	background: #23232C;
+}
+
+#content #album-expended .table-album tr:nth-child(odd), #content #album-expended .table-album tr:nth-child(even){
+	background-color: #23232C;
+}
+
+.action-expend.active::after{
+	border-color: transparent transparent #23232C;
 }
 
 /* MISCELLANEOUS */
@@ -126,4 +154,14 @@ nav .search-input{
 .panel-default{
 	border: 1px solid #D1D1D7;
 	box-shadow: none;
+	border-radius: 0px;
+}
+
+.panel-default > .panel-heading{
+	background-color: #FFFFFF;
+}
+
+.action-expend img{
+	background: #FFFFFF;
+	border: 1px solid #D1D1D7;
 }
