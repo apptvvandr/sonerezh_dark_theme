@@ -1,52 +1,31 @@
-/*html { 
-	margin:0;
-	padding:0;
-	background: url(../img/home.jpg) no-repeat center fixed; 
-	-webkit-background-size: cover;
-	background-size: cover;
-	-webkit-filter: blur(5px);
-	-moz-filter: blur(5px);
-	-o-filter: blur(5px);
-	-ms-filter: blur(5px);
-	filter: blur(5px);
-}*/
-body {
-    position: absolute;
-    top: 0; bottom: 0; left: 0; right: 0;
-    height: 100%;
-    background-color: none;
-}
-body:before {
-    content: "";
-    position: absolute;
-    height: 100%; width: 100%;
-    background: url(../img/home.jpg);
-    background-size: cover;
-    z-index: -1; /* Keep the background behind the content */
-    /* don't forget to use the prefixes you need */
-    -webkit-filter: blur(3px);
-    filter: blur(3px);
+body{
+	background: #141414;
+	color: #FFFFFF;
 }
 
-h2{
-	font-size: 40px;
-	color: #000000;
+.btn, .form-control{
+	border-radius: 0px;
 }
 
-#content{
-	margin-top: 25%;
-	text-align: center;
-}
-
-.submit{
-	margin:0 auto;
-}
-
-.form-group label{
-	display: none;
-}
-
-.form-group input:focus{
-	border: 1px solid #007FEB;
+.form-control{
+	background: #232323;
+	border:none;
 	box-shadow: none;
+	color: white;
+}
+
+.form-control:focus{
+	box-shadow: none;
+}
+
+.btn-default, .btn-default:focus, .btn-success, .btn-success:focus{
+	background: #222222;
+	border-color: #5A5A5A;
+	color: white;
+}
+
+.btn-default:hover, .btn-success:hover{
+	background: #222222;
+	border-color: #A5A5A5;
+	color: white;
 }
